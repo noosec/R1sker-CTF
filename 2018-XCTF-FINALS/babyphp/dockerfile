@@ -1,0 +1,7 @@
+FROM nimmis/apache-php7
+
+COPY ./application/* /var/www/html/
+
+RUN mv /var/www/html/index.html /tmp/index.html && \
+	chmod 777 -R /var/www/html && \
+	chmod 755 -R /var/www/html/*.php
