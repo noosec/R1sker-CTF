@@ -1,2 +1,2 @@
 # R1sker-CTF
-CTF一些题目的Docker,writeup,附件等
+主要搜集CTF一些题目的Docker，方便复现。也会有 writeup，附件等。
